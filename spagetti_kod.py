@@ -26,7 +26,7 @@ completion = openai.Completion()
 
 start_chat_log = ""
 
-forbidden_comments = ['[removed]', '[deleted]', '', ' ', None, 'Erpasment']
+forbidden_comments = ['[removed]', '[deleted]', '', ' ', None]
 
 non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd)
 
