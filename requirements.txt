@@ -1,0 +1,6 @@
+praw
+openai
+deep-translator
+flask
+gunicorn
+gunicorn[gevent]
